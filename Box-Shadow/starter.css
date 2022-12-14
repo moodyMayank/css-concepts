@@ -1,0 +1,15 @@
+/* This is the Starter Code 
+- Understand the syntax of Box-Shadow 
+*/
+
+body {
+  background-color: rgb(209, 209, 2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: white;
+  padding: 2em;
+}

@@ -1,0 +1,34 @@
+/* Box-Shadow 
+- box-shadow property attaches one or more shadows to an element.
+- Syntax:- 
+    box-shadow: h-offset v-offset
+
+- h-offset : required 
+- v-offset : required 
+- others : optional 
+
+- Units : all except percentages 
+
+*/
+
+body {
+  background-color: rgb(209, 209, 2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: white;
+  padding: 1em;
+  /* box-shadow: 20px 20px; */
+
+  /* Variations */
+  /* box-shadow: 20px 0; Only Horizontal offset */
+  /* box-shadow: 0 20px; Only Vertical offset */
+  /* box-shadow: 50px 200px; Seeing the actual shadow */
+  /* box-shadow: -50px -200px; Seeing the actual shadow but upwards */
+
+  /* 3rd Value : Blur { Optional }*/
+  box-shadow: 20px 20px 10px;
+}
