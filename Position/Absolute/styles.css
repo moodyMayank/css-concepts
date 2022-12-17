@@ -1,0 +1,40 @@
+/* position : Absolute 
+- So as soon as we put an element on position : absolute , it puts the element out of the flow. { flow is like paragraph -> div -> paragraph }, so other things ignore this element.
+- With Position , we can give properties like top , left , bottom ,right 
+- This top, left, bottom, right means how much away it is from that side.
+    - Ex =>  top : 0 means its 0 away from top 
+    - Ex =>  top : 50% means its 50% away from the top 
+- With Position : Absolute only and no Position: relative , then it will directly relate to body.
+*/
+.parent {
+  background-color: aquamarine;
+  height: 75vh;
+  width: 75vw;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 1em;
+}
+
+.child {
+  background-color: red;
+  position: absolute;
+
+  /*Example 1*/
+  /* 
+  width: 50px;
+  height: 50px;  
+  top: 0;
+  left: 0; */
+
+  /*Example 2*/
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 50%; */
+
+  /*Example 3*/
+  /* top: 0;
+  bottom: 0;
+  right: 50%;
+  width: 100px; */
+}
