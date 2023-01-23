@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* Here It is equal to 10px */
+  font-size: 62.5%;
+}
+
+body {
+  /* Here it comes back to 16px */
+  font-size: 1.6rem;
+}
+
+.container {
+  border: 2px solid blue;
+  padding: 20px;
+}
+
+p {
+  font-size: 2rem;
+  color: gray;
+  line-height: 3rem;
+}
+
+@media (min-width: 600px) {
+  p {
+    font-size: 4rem;
+    line-height: 6rem;
+    color: blueviolet;
+  }
+}
+
+/* Syntax @media () {
+        new rules / Override rules 
+    }
+
+- () : This contains the different widths and Heights , basically different medias 
+*/

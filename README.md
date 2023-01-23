@@ -10,6 +10,10 @@
 
 ### Top, Left, Bottom, Right { Position Properties }
 
+### Tips
+
+- Using classes
+
 ### Extensions
 
 #### Prettier

@@ -29,3 +29,9 @@ Media Queries : Using em because safari has some issues with rem but we can use 
 - vw : Full visible width 
 - px : fixed sizes , locks the size 
 */
+
+/* Once We have set font-size : 62.5% 
+
+- We should set body font-size : 1.6rem , so that it comes back to neutral state
+
+*/
