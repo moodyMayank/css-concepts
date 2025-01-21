@@ -1,8 +1,0 @@
-/* Z-Index 
-- specifies the stack order of an element.
-- An element with greater stack order is always in front of the element with a lower stack.
-
-Note : z-index only works on elements having position property and flex items 
-Note : If two positioned elements overlap without a z-index specified, the element
-positioned last in the HTML code comes on top.
-*/

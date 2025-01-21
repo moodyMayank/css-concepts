@@ -1,23 +1,8 @@
-# CSS Best Practices
+# React + Vite
 
-### Colors
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- Using hsl will give advantages
+Currently, two official plugins are available:
 
-### Buttons
-
-### Width & Height
-
-### Top, Left, Bottom, Right { Position Properties }
-
-### Tips
-
-- Using classes
-
-### Extensions
-
-#### Prettier
-
-- Just install the prettier extensions
-- Set the default parameter in VS Code as prettier
-- Tick on format on paste and format on save also.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
